@@ -391,7 +391,7 @@ def helpmessage():
                     "╠ " + key + "SearchMusic 「Search」" + "\n" + \
                     "╠ " + key + "SearchLyric 「Search」" + "\n" + \
                     "╠ " + key + "SearchImage 「Search」" + "\n" + \
-                    "╚══[ Copyright @Zero-Cool404 ]"
+                    "╚══[ OwnBy AumSQ ]"
     return helpMessage
 
 def helptexttospeech():
@@ -453,8 +453,8 @@ def helptexttospeech():
                         "╠ " + key + "uk : Ukrainian" + "\n" + \
                         "╠ " + key + "vi : Vietnamese" + "\n" + \
                         "╠ " + key + "cy : Welsh" + "\n" + \
-                        "╚══[ Copyright @Zero-Cool404 ]" + "\n" + "\n\n" + \
-                        "Contoh : " + key + "say-id Zero"
+                        "╚══[ OwnBy AumSQ ]" + "\n" + "\n\n" + \
+                        "Contoh : " + key + "say-id AumSQ"
     return helpTextToSpeech
 
 def helptranslate():
@@ -569,8 +569,8 @@ def helptranslate():
                     "╠ " + key + "zu : zulu" + "\n" + \
                     "╠ " + key + "fil : Filipino" + "\n" + \
                     "╠ " + key + "he : Hebrew" + "\n" + \
-                    "╚══[ Copyright @Zero-Cool404 ]" + "\n" + "\n\n" + \
-                    "Contoh : " + key + "tr-id Zero"
+                    "╚══[ OwnBy AumSQ ]" + "\n" + "\n\n" + \
+                    "Contoh : " + key + "tr-id AumSQ"
     return helpTranslate
 
 def clientBot(op):
@@ -598,9 +598,9 @@ def clientBot(op):
                 sendMention(op.param1, "Oi asw @!,ngapain invite saya")
                 client.leaveRoom(op.param1)
 
-        if op.type == 25:
+        if op.type == 26:
             try:
-                print ("[ 25 ] SEND MESSAGE")
+                print ("[ 26 ] SEND MESSAGE")
                 msg = op.message
                 text = msg.text
                 msg_id = msg.id
